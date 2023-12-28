@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [FAQ Accordion]([https://medhatassm.github.io/Blog-Preview-Card-Main/](https://medhatassm.github.io/FAQ-Accordion/))
+- Solution URL: [FAQ Accordion](https://medhatassm.github.io/FAQ-Accordion/)
 
 ### Built with
 
