@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+body{
+    background-color: hsl(275, 100%, 97%);
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans" , sans-serif;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+h1{
+    font-size: 3em;
+    color: hsl(292, 42%, 14%);
+    margin: 20px 0;
+    
+}
+
+.background-container{
+    background-image: url("./assets/images/background-pattern-desktop.svg");
+    width: 100%;
+    height: 35vh;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faqs-container{
+    width: 550px;
+    height: auto;
+    background-color: white;
+    position: relative;
+    bottom: 150px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px hsl(292, 16%, 49%);
+    padding: 20px 40px;
+}
+
+.title{
+    display: flex;
+    gap: 20px;
+
+}
+
+.question{
+    display: flex;
+    align-items: center;
+    gap: 0;
+    justify-content: space-between;
+}
+
+.question p{
+    font-weight: bold;
+    color: hsl(292, 42%, 14%);
+    width: fit-content;
+}
+
+.answer p{
+    color: gray;
+}
+
+hr{
+    border: 1px solid rgb(231, 231, 231);
+}
+.answer-button{
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets/images/icon-plus.svg");
+    border-radius: 100%;
+}
+
+.question p:hover{
+    color: hsl(293, 98%, 50%);
+}
+@media (max-width: 740px) {
+    .faqs-container{
+        width: auto;
+        margin: 0 40px;
+    }
+    .background-container{
+        background-image: url("./assets/images/background-pattern-mobile.svg");
+    }
+    h1{
+        font-size: 1.5em;
+    }
+
+    .question{
+        gap: 15px;
+    }
+  }
+
+@media (max-width: 500px) {
+    .faqs-container{
+        width: 250px;
+        padding: 5;
+    }
+    .background-container{
+        background-image: url("./assets/images/background-pattern-mobile.svg");
+    }
+
+    .question{
+        gap: 7px;
+    }
+
+    .answer-button{
+        width: 30px;
+        height: 30px;
+        
+    }
+
+    .question p{
+        width: fit-content;
+    }
+  
+  }
