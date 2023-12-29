@@ -41,4 +41,14 @@ Users should be able to:
 
 ### What I learned
 
-- 
+- Flexbox, or the Flexible Box Layout, is a layout model in CSS (Cascading Style Sheets) designed to provide a more efficient and predictable way to arrange and distribute space among items in a container, even when the size of the items is unknown or dynamic. It's particularly useful for designing complex layouts and aligning items within a container along a single axis or both axes.
+
+Using it To desgin element layout.
+
+- A media query is a CSS technique introduced in CSS3 that allows you to apply styles to a web page based on the characteristics of the device or browser viewing the page. Media queries enable responsive web design by adapting the layout and presentation of a website to different screen sizes, resolutions, and device capabilities. This helps create a consistent and user-friendly experience across various devices, such as desktops, laptops, tablets, and smartphones.
+
+Using it to make project responsive to any screen size.
+
+- jQuery is a fast, lightweight, and feature-rich JavaScript library. It simplifies many of the complex tasks from JavaScript, such as DOM manipulation, event handling, and AJAX requests. jQuery is designed to work across different browsers, abstracting away some of the inconsistencies in the way browsers implement JavaScript and providing a more concise syntax for common tasks.
+
+Using it to make my javascript code more readiable.
